@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/sytles.css">
-    <title>Projeto RPG</title>
+    <title>Jogo de RPG - Home</title>
 </head>
 <body>
     <div class="container">
-    <h2>Olá, bem vindo ao rpg textual que estamos criando para o nossa cadeira de "Projeto Final"!</h2>
-    <h3>Entre com o nome do seu personagem para o RPG!</h3>
+        <div class="login">
+    <h1>Bem vindo ao jogo de RPG</h1>
+    <h2>Entre com o nome do seu personagem!</h2>
     <form id="registroForm">
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome">
-        <button type="submit">Registrar</button>
+        <input type="text" id="nome" name="nome" class="input">
+        <button class="play_btn" type="submit">Registrar</button>
     </form>
 
     <div id="mensagem"></div>
-
+</div>
 </div>
 
     <script src="./script/script.js"></script>
