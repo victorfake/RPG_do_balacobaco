@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <div class="container">
+            <h1>Criação de Personagem de RPG</h1>
+            <form id="character-form">
+                <label for="race">Raça:</label>
+                <select id="race" required>
+                    <option value="">Selecione uma raça</option>
+                    <option value="humano">Humano</option>
+                    <option value="elfo">Elfo</option>
+                    <option value="anão">Anão</option>
+                    <option value="orc">Orc</option>
+                </select>
+    
+                <label for="class">Classe:</label>
+                <select id="class" required>
+                    <option value="">Selecione uma classe</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="mago">Mago</option>
+                    <option value="arqueiro">Arqueiro</option>
+                    <option value="ladino">Ladino</option>
+                </select>
+    
+                <label for="background">Antecedente:</label>
+                <select id="background" required>
+                    <option value="">Selecione um antecedente</option>
+                    <option value="nobre">Nobre</option>
+                    <option value="plebeu">Plebeu</option>
+                    <option value="mercador">Mercador</option>
+                    <option value="soldado">Soldado</option>
+                </select>
+    
+                <button type="button" onclick="createCharacter()">Criar Personagem</button>
+            </form>
+            <div id="character-output" style="margin-top: 20px;"></div>
+        </div>
+    
+        <script src="script.js"></script>
+    
+</body>
+</html>
